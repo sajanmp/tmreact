@@ -14,6 +14,7 @@ function App() {
      <input name="last_name" value={lastName} onChange={e=>setLastName(e.target.value)}></input>
      <br/>
      <label>Welcome {firstName} {lastName}</label>
+     <label>Welcome {firstName} {lastName}</label>
     </div>
   );
 }
